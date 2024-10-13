@@ -9,6 +9,7 @@ app = FastAPI(title="Mozy")
 
 origins = [
     "http://localhost:3000",
+    "https://mozy-8wis48qs1-jejins-projects.vercel.app",
 ]
 
 app.add_middleware(
