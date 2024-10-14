@@ -8,7 +8,7 @@ Ensure that each task includes all necessary context from the original text, suc
 or any other information that makes the task clear and unambiguous.
 For each task, include the portion of the original text from which it was extracted.
 Return them as a list of tasks in JSON format that matches the provided schema.
-
+If there are no to-do items to extract, return an empty list.
 MUST:
  return response in KOREAN
  
