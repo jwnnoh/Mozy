@@ -7,10 +7,7 @@ from app.domain.todo import router as todo_router
 
 app = FastAPI(title="Mozy")
 
-origins = [
-    "http://localhost:3000",
-    "https://mozy-8xl1g25bf-jejins-projects.vercel.app",
-]
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
